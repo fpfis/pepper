@@ -6,4 +6,3 @@ RUN apt update; \
     pip3 install salt-pepper setuptools; \
     apt-get clean; \
     rm -rf /var/lib/apt/lists/*
-
